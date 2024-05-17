@@ -1,0 +1,277 @@
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    padding-right: 0px !important;
+    padding-left: 0px !important; 
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    line-height: 1.5;
+    
+}
+#Scrum {
+    scroll-margin-top: 7.5rem; /* Ajusta el desplazamiento en el destino */
+}
+.nombre{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div{
+    padding-right: 0px !important;
+    padding-left: 0px !important; 
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.img-perfil{
+    border-radius: 50px;    
+}
+.CirculoDeCreacion{
+    max-height: 650px;  
+    animation: latido 15s infinite;
+
+}
+.ScrumIMG{
+    max-height: 1000px; 
+   
+    animation: latido 25s infinite;
+}
+@keyframes latido {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+.boton-c{
+    padding: 30px;
+    margin: 3rem;
+}
+.equipo-b{
+    background-color: #121212;
+}
+.NavT{
+    font-family: "Jaro", sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute; 
+    color: azure;
+}
+.p-container{
+    margin-top: 5rem;
+}
+.close{
+    justify-content: right !important;
+    padding: 20px !important;
+}
+.closebutton{
+    height: 25px !important;
+    width: 25px !important;
+    border: 2px solid black;   
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+.offcanvas{
+    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important ;
+}
+
+.navbar {
+    background-color: transparent; /* Fondo transparente inicialmente */
+    transition: background-color 0.8s ease; /* Transición suave */
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar:hover {
+    background-color: #121212; /* Color de fondo al pasar el cursor */
+}
+nav{
+    max-height: 100px !important;
+    min-height: 100px;
+    width: 100%;
+    height: 4rem;
+}
+
+
+.NavUl{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: #3c39c6 !important;
+    
+}
+
+.nav-item{
+    color: #ffffff !important;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    min-width: 500px;
+    color: rgb(255, 255, 255);
+    margin: 1rem;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    min-width: 500px;
+    color: rgb(255, 255, 255);
+    margin: 1rem;
+    margin: auto; 
+    max-width: 1000px; 
+
+}
+.p-main{
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px;
+    
+}
+.p-secundary{
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 50px !important;
+    max-width: 1000px; 
+    margin: auto; 
+
+}
+
+.segunda-p{
+    margin: 0 auto; 
+    padding: 20px;  
+}
+
+
+@media (max-width: 1024px){
+    .CirculoDeCreacion{
+        max-height: 500px;
+    }
+    .ScrumIMG{
+        max-height: 500px;
+    }
+    
+    h1{
+    
+        font-size: 45px;
+        min-width: 400px;
+    }
+    h2{
+        font-size: 40px;
+        min-width: 400px;
+    }
+    .NavT{
+        font-size: 30px;
+        
+    }
+}
+@media (max-width: 768px){
+    .navbar {
+        background-color: #121212 !important;  /* Fondo transparente inicialmente */
+
+    }
+    .CirculoDeCreacion{
+        max-height: 500px;
+    }
+    .ScrumIMG{
+        max-height: 450px;
+    }
+    h1{
+    
+        font-size: 35px;
+        min-width: 300px;
+    }
+    h2{
+        font-size: 30px;
+        min-width: 300px;
+    }
+    .NavT{
+        right: 0px;
+        
+    }
+    .navbar {
+        background-color: transparent; /* Fondo transparente inicialmente */
+        padding: 20px;
+        text-align: center;
+        
+    }
+    .offcanvas{
+        background-color: #121212 !important;
+    }
+    
+
+}
+@media (max-width: 425px){
+    .boton-c{
+        padding: 15px;
+        margin-bottom: 50px !important;
+    }
+    nav{
+        max-height: 80px !important;
+        min-height: 80px;
+    }
+    .p-5{
+        padding: 0rem !important;
+    }
+    .m-5{
+        margin: 0rem !important;
+    }
+    .CirculoDeCreacion{
+        max-height: 325px;
+    }
+    .ScrumIMG{
+        max-height: 250px;
+    }
+    h1{
+ 
+        font-size: 25px;
+        min-width: 280px;
+    }
+    h2{
+        font-size: 20px;
+        min-width: 180px;
+    }
+    .p-main{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .NavT{
+        font-size: 40px;
+        
+    }
+}
+@media (max-width: 375px){
+    .ScrumIMG{
+        max-height: 220px;
+    }
+}
+@media (max-width: 320px){
+    h1{
+    
+        font-size: 20px;
+        min-width: 250px;
+    }
+    h2{
+        font-size: 15px;
+        min-width: 150px;
+    }
+    .CirculoDeCreacion{
+        max-height: 250px;
+    }
+    .ScrumIMG{
+        max-height: 180px;
+    }
+    .NavT{
+        font-size: 30px;
+        
+    }
+}
