@@ -41,7 +41,7 @@
                     <a class="nav-link" href="#Team">Equipo</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Contacto</a>
+                    <a class="nav-link" href="#Contacto">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -52,13 +52,13 @@
 
     <main>
           <!-- Primera Pagina -->
-            <div class="row  container-fluid p-2 p-container">
+            <div class="row  container-fluid p-1">
                 <div class="col container-fluid m-5">
                     <h1>Soluciones digitales de alta calidad</h1>
                     <p class="p-main">Nos dedicamos a diseñar y desarrollar software de vanguardia que se adapta perfectamente a las necesidades específicas de tu negocio.</p>
                     <p class="p-main">Nuestro enfoque se centra en ofrecer soluciones que no solo sean de la más alta calidad, sino también altamente escalables, garantizando que crezcan junto con tu empresa.</p>
                     <p class="p-main">Con nuestra experiencia y compromiso con la excelencia, estamos aquí para impulsar tu negocio hacia el éxito.</p>
-                    <button type="button" class="btn btn-primary btn-lg boton-c">Contactanos</button>
+                    <a href="#Contacto"><button type="button" class="btn btn-primary btn-lg boton-c">Contactanos</button></a>
                 </div>  
                 <div class="col container-fluid m-5 text-center">
                     <img src="img/CirculoDeCreacion.png" alt="CirculoDeCreacion" class="CirculoDeCreacion">
@@ -90,7 +90,7 @@
                   <div class="card p-4" style="width: 23rem;">
                     <img src="img/fotoporfolio.jpg" class="card-img-top img-perfil" alt="...">
                     <div class="card-body">
-                      <p class="card-text nombre">Joaquin Espeche</p>
+                      <a href="https://www.linkedin.com/in/joaquin-espeche-ba4219223/"><p class="card-text nombre">Joaquin Espeche</p></a>
                       <p class="card-text nombre">CEO | Developer</p>
                     </div>
                   </div>
@@ -110,10 +110,44 @@
           </div>
           <!-- Contacto -->
           <div class="container-fluid text-center justify-content-center p-5">
-            <h2 class="p-4">Contactanos</h2>
-
-
+            <h2 class="p-4" id="Contacto">Contactanos</h2>
+            <p class="p-team">Cuentanos cual es tu problema y nosotros nos pondemos en contacto</p>
+            <div class="row">
+                <div class="col bg-light formConfig m-2">
+                  <div class="row">
+                  <div class="mb-3 paddingform col">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre de la empresa</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre de la empresa">
+                  </div>
+                  <div class="mb-3 paddingform col">
+                    <label for="exampleFormControlInput1" class="form-label">Numero de contacto</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Numero de contacto">
+                  </div>
+                  <div class="row">
+                    <div class="mb-3 paddingform col">
+                      <label for="exampleFormControlInput1" class="form-label">Especifica el area de la empresa</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Area de la empresa">
+                    </div>
+                    <div class="mb-3 paddingform col">
+                      <label for="exampleFormControlInput1" class="form-label">En donde te encuentras</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ubicacion de la empresa">
+                    </div>
+                  </div>
+                  </div>
+                  <div class="mb-3 paddingform">
+                    <label for="exampleFormControlTextarea1" class="form-label">Cuentanos tu problema</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <p>Nos pondremos en contacto lo mas rapido posible</p>
+                  <button type="submit" class="btn btn-primary paddingform m-4 boton-c">Enviar</button>
+                </div>
+                <div class="col">
+                  <p class="p-main">Puedes contactarnos a travez de nuestras redes sociales</p>
+                  <img src="/img/X_logo_2023.svg.png" width="100rem">
+                  <img src="" alt="">
+                </div>  
           </div>
+          
     </main>
     
    

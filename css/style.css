@@ -14,6 +14,10 @@ body{
 #Scrum {
     scroll-margin-top: 7.5rem; /* Ajusta el desplazamiento en el destino */
 }
+#Contacto{
+    scroll-margin-top: 3rem; /* Ajusta el desplazamiento en el destino */
+    
+}
 .nombre{
     font-weight: bold;
     font-size: 20px;
@@ -49,6 +53,7 @@ div{
 .boton-c{
     padding: 30px;
     margin: 3rem;
+    border-radius: 10px;
 }
 .equipo-b{
     background: #000000;  /* fallback for old browsers */
@@ -167,6 +172,17 @@ h2{
 .segunda-p{
     margin: 0 auto; 
     padding: 20px;  
+}
+
+.formConfig{
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.paddingform{
+    padding: 1rem;
+
+    padding-left: 50px !important;
+    padding-right: 50px !important;
 }
 
 
