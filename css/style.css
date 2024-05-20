@@ -80,9 +80,7 @@ div{
     position: absolute; 
     color: azure;
 }
-.p-container{
-    margin-top: 5rem;
-}
+
 .close{
     justify-content: right !important;
     padding: 20px !important;
@@ -230,7 +228,7 @@ h2{
     
 
 }
-@media (max-width: 425px){
+@media (max-width: 550px){
     .boton-c{
         padding: 15px;
         margin-bottom: 50px !important;
