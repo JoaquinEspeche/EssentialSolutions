@@ -11,11 +11,17 @@ body{
     line-height: 1.5;
     
 }
+.container-m{
+    margin-top: 4rem;
+}
+.container-c{
+    margin-top: 4rem;
+}
 #Scrum {
     scroll-margin-top: 7.5rem; /* Ajusta el desplazamiento en el destino */
 }
 #Contacto{
-    scroll-margin-top: 3rem; /* Ajusta el desplazamiento en el destino */
+    scroll-margin-top: 5rem; /* Ajusta el desplazamiento en el destino */
     
 }
 .nombre{
@@ -28,7 +34,7 @@ div{
     padding-left: 0px !important; 
     margin-right: 0px !important;
     margin-left: 0px !important;
-}
+} 
 .img-perfil{
     border-radius: 50px;    
 }
